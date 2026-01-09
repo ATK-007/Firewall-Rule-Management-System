@@ -35,3 +35,10 @@ Cybersecurity Enthusiast
 
 ```txt
 No external libraries required
+
+RUN ORDER:
+
+sudo ufw enable
+sudo python3 traffic_analyzer.py
+sudo python3 traffic_monitor_gui.py
+sudo python3 firewall_gui.py
