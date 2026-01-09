@@ -16,31 +16,28 @@ and automatic DDoS detection.
 - Tkinter
 - Raw socket programming
 
+
 ## ▶️ How to Run
 
-```bash
+⚠️ Run on Linux (Ubuntu / Kali)  
+⚠️ Use sudo permissions
+
+### 1️⃣ Enable Firewall (One time)
 sudo ufw enable
-sudo python3 traffic_analyzer.py
-sudo python3 traffic_monitor_gui.py
-sudo python3 firewall_gui.py
+
+2️⃣ Start Traffic Sniffer (Background)
+sudo python3 traffic_sniffer.py
+
+3️⃣ Start Web Dashboard (New Terminal)
+sudo python3 app.py
+
+4️⃣ Open Browser
+http://localhost:5000
 
 
-##👨‍💻 Author
+👨‍💻 Author
 
 Ashish Atmakuri
 Cybersecurity Enthusiast
 
 
----
-
-# ⚙️ 5️⃣ `requirements.txt`
-
-```txt
-No external libraries required
-
-RUN ORDER:
-
-sudo ufw enable
-sudo python3 traffic_analyzer.py
-sudo python3 traffic_monitor_gui.py
-sudo python3 firewall_gui.py
